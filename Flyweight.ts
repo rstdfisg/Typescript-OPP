@@ -1,4 +1,3 @@
-import { throws } from "assert";
 
 class KarakTea {
     protected flavor: string;
