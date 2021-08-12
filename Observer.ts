@@ -62,15 +62,15 @@ class JobPostings {
 
 
 // Create subscribers
-let AA = new platform_A('Jack');
-let BB = new platform_B('Bob');
+let AAA = new platform_A('Jack');
+let BBB = new platform_B('Bob');
 
 // Create publisher and attach subscribers
 let jobPostings = new JobPostings();
 
-jobPostings.attach(AA);
+jobPostings.attach(AAA);
 jobPostings.attach(new platform_A('Bob'));
-jobPostings.attach(BB);
+jobPostings.attach(BBB);
 jobPostings.attach(new platform_B('jack'));
 
 // Add a new job and see if subscribers get notified
