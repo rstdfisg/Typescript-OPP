@@ -3,7 +3,7 @@ interface IEmployee {
     getName(): string;
     setSalary(salary: number): void;
     getSalary(): number;
-    getRoles(): [];
+    getRoles(): Array<any>;
 }
 
 class Developer implements IEmployee {

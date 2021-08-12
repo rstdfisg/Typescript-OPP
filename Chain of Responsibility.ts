@@ -29,7 +29,7 @@ abstract class Account {
 
 
 class Bank extends Account {
-    protected balance: number;
+    // protected balance: number; // seems no need to declare...
 
     constructor(balance: number) {
         super();
@@ -38,7 +38,7 @@ class Bank extends Account {
 }
 
 class Paypal extends Account {
-    protected balance: number;
+    // protected balance: number;
 
     constructor(balance: number) {
         super();
@@ -46,7 +46,7 @@ class Paypal extends Account {
     }
 }
 class Bitcoin extends Account {
-    protected balance: number;
+    // protected balance: number;
 
     constructor(balance: number) {
         super();
